@@ -1,0 +1,156 @@
+body {
+    background: black; 
+    text-align: center;
+    font-family: Helvetica;
+    color: seashell;
+    opacity: .9;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;        
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header {
+    position: fixed; 
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    background: black;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+header img {
+    padding: 10px;
+    max-height: 50px;
+    width: auto;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+header nav li {
+    display: inline-block;
+}
+
+header nav li a {
+    text-decoration: underline;
+    padding: 10px;
+    color: seashell;
+    font-size: 1.4em;
+}
+
+main {
+    padding-top: 69px;
+}
+
+.container-main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main {
+    background-image: url('../images/img-mission-background.jpg');
+    height: 700px;
+    width: 100%;  
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.mission {
+    background: black;
+}
+
+.mission h2 {
+    margin: 10px 0;
+}
+
+.mission h4 {
+    margin: 15px;
+}
+
+.container-month {
+    width: 1000px;
+    padding-top: 2rem;
+    margin: 0 auto;
+}
+
+.item {
+    padding: 10px;
+}
+
+.item img {
+    width: 300px;
+    height: 200px;
+}
+
+.item p {
+    font-weight: bold;
+    font-size: 1.2em; 
+    margin-top: 10px;
+}
+
+.container-locations {
+    background-image: url('../images/img-locations-background.jpg');
+    height: 500px;
+    width: 1200px;  
+    flex-direction: column;
+    display: flex;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+.location-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 275px;
+    background-color: black;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+.container-locations h4 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.container-locations p {
+    font-size: 1.3em;
+}
+
+.container-contact {
+    height: 200px;
+}
+
+footer p {
+    text-align: left;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+
